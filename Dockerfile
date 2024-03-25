@@ -23,6 +23,7 @@ WORKDIR /usr/ecrnow
 
 COPY --from=builder /build/target/ecr-now.war lib
 COPY kars kars
+RUN mkdir -p /usr/ecrnow/bsa-output
 COPY eRSDv2.json .
 
 EXPOSE 8080
