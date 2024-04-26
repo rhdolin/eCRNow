@@ -140,9 +140,9 @@
                 "actionId": "check-reportable",
                 "relationship": "before-start",
                 "offsetDuration": {
-                  "value": 72,
+                  "value": 300,
                   "system": "http://unitsofmeasure.org",
-                  "code": "h"
+                  "code": "s"
                 }
               }
             ]
