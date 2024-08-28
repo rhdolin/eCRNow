@@ -25,7 +25,7 @@
         ],
         "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/StructureDefinition/plandefinition-healthcare-survey-example2",
         "version": "1.0",
-        "name": "PlanDefinitionHealthcareSurveyExample2",
+        "name": "PlanDefinitionHealthcare Survey Example2",
         "title": "PlanDefinition Health Care Survey Reporting Example2",
         "type": {
           "coding": [

@@ -53,7 +53,7 @@
         ],
         "url": "http://hl7.org/fhir/us/central-cancer-registry-reporting/StructureDefinition/plandefinition-central-cancer-registry-reporting-example1",
         "version": "0.1.0",
-        "name": "CentralCancerRegistryReportingExample1",
+        "name": "Central Cancer Registry Reporting Example1",
         "title": "PlanDefinition Central Cancer Registry Reporting Example1",
         "type": {
           "coding": [
