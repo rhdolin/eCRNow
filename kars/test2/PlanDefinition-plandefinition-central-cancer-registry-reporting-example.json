@@ -210,6 +210,18 @@
                     }
                   }
                 ],
+                "input": [
+                  {
+                    "id": “patient”,
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/us/medmorph/StructureDefinition/us-ph-fhirquerypattern-extension",
+                        "valueString": “Patient/{{context.patientId}}“
+                      }
+                    ],
+                    "type": “Patient”
+                  }
+                ],
                 "relatedAction": [
                   {
                     "actionId": "check-reportable",
