@@ -22,9 +22,6 @@ public class SampleRestApiReceiver {
 
   private static final Logger logger = LoggerFactory.getLogger(SampleRestApiReceiver.class);
 
-  @Autowired
-  KarParser parser;
-
   @CrossOrigin
   @PostMapping(value = "/api/receiveEicr")
   public JSONObject receiveEicr(
@@ -46,6 +43,9 @@ public class SampleRestApiReceiver {
 
     return responseObject;
   }
+
+  @Autowired
+  KarParser parser;
 
   @CrossOrigin
   @GetMapping(value = "/api/karReload")
